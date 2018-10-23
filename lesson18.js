@@ -3,7 +3,7 @@ function myFunction() {
     let myObject = {
         objProperty: 'some text',
         objMethod: function() {
-            console.log(objProperty);
+            console.log(myObject.objProperty);
         }
     };
     myObject.objMethod();
